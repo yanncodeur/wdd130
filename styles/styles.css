@@ -1,3 +1,13 @@
+nav {
+    background-color: rgb(61, 189, 189);
+    padding: 10px;
+}
+
+nav a {
+    color: rgb(20, 5, 5);
+    display: block;
+}
+
 main {
     max-width: 500px;
 }
@@ -20,6 +30,13 @@ aside img {
 main img {
     width: 200px;
     height: auto;
+    border: 2px dotted #000;
+    padding: 1rem;
+    box-shadow: 15px 10px 50px #00000081;
+}
+
+h1 {
+    color: gray;
 }
 
 p {
