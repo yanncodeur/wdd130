@@ -5,6 +5,7 @@ nav {
 
 nav a {
     color: rgb(20, 5, 5);
+    padding: 1rem;
     display: block;
 }
 
