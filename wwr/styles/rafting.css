@@ -63,7 +63,7 @@ article {
     opacity: 0.7;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 380px;
     background-color: var(--other-color);
