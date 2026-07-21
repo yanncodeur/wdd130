@@ -1,0 +1,84 @@
+:root {
+    --primary-color: darkblue;
+    --secondary-color: darkgreen;
+    --other-color: lightblue;
+    --font-family-headings: serif;
+    --font-family-paragraphs: sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family-paragraphs);
+    color: var(--secondary-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 10px;
+    padding: 5px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    background-color: var(--other-color);
+    width: 100%;
+    top: 20px;
+    padding: 12px;
+    opacity: 0.7;
+}
+
+article {
+    position: absolute;
+    top: 380px;
+    background-color: var(--other-color);
+    opacity: 0.7;
+    display: flex;
+    color: var(--primary-color);
+}
+
+.hero article img {
+    width: 505px;
+    height: auto;
+    float: right;
+    height: 100px;
+    object-fit: cover;
+}
+
+.logo {
+    width: 30px;
+}
