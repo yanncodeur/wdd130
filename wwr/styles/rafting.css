@@ -40,7 +40,13 @@ section {
 
 header {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto 1fr;
+    width: 60vw;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -51,8 +57,8 @@ header img {
 header nav a {
     color: var(--primary-color);
     border: 2px solid black;
-    padding: 2px 5px;
     text-decoration: none;
+    padding: 8px;
 }
 
 .hero {
