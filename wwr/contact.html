@@ -22,13 +22,12 @@
         </nav>
     </header>
     <main>
-
+        <h1>Koffi's Rafting Club</h1>
         <section class="contact-section">
 
 
             <div class="company-info">
 
-                <h2>Koffi's Rafting Club</h2>
 
                 <p>
                     Address: 123 River Road<br>
@@ -66,27 +65,21 @@
 
                         <p>Purpose of Message:</p>
 
-                        <label>
-                            <input type="radio" name="purpose">
-                            General Inquiry
-                        </label>
+                        <input type="radio" id="general" name="purpose" value="general">
+                        <label for="general">General Inquiry</label>
 
-                        <label>
-                            <input type="radio" name="purpose">
-                            Reservation Question
-                        </label>
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
 
-                        <label>
-                            <input type="radio" name="purpose">
-                            Website Suggestion
-                        </label>
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
 
                         <label for="message">Message:</label>
 
                         <textarea id="message" name="message"></textarea>
+                        <input type="checkbox" id="newsletter" name="newsletter">
 
-                        <label>
-                            <input type="checkbox">
+                        <label for="newsletter">
                             Please subscribe me to the monthly newsletter
                         </label>
 
@@ -109,17 +102,17 @@
             <div class="employee-cards">
 
                 <figure>
-                    <img src="images/john-Smith.jpg" alt="John Smith">
+                    <img src="images/john-smith.jpg" alt="John Smith">
                     <figcaption>John Smith - Rafting Manager</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/Mary-Johnson.jpg" alt="Mary Johnson">
+                    <img src="images/mary-johnson.jpg" alt="Mary Johnson">
                     <figcaption>Mary Johnson - River Guide</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/David-Brown.jpg" alt="David Brown">
+                    <img src="images/david-brown.jpg" alt="David Brown">
                     <figcaption>David Brown - Safety Instructor</figcaption>
                 </figure>
 

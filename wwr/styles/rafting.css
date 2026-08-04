@@ -159,6 +159,11 @@ footer {
 /* ==========================
    CONTACT PAGE
 ========================== */
+
+main h1 {
+    text-align: center;
+}
+
 .contact-section h1,
 .company-info,
 .employees h2,
